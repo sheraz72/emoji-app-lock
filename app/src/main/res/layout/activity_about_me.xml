@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="100dp"
+        app:cardBackgroundColor="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon2"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Emoji Lock Screen\n
+Version 1.0"
+        android:textColor="@color/font_deep_gray"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="An Emoji App Lock is a lightweight app that lets you lock any app on your android with full of an attractive emojis.\n\n
+The basic feature locks your applications so nobody can access them. The application works in a very simple way.\n\n
+In order to use the app, make sure Emoji App Lock is running in the background. If it is running, We can be notified by the notification."
+       android:textColorLink="@color/colorPrimary" />
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+
+
+
+
+
+
+</LinearLayout>

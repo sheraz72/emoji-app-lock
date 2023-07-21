@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "935500520712",
+    "firebase_url": "https://emojiapp-3c7ce-default-rtdb.firebaseio.com",
+    "project_id": "emojiapp-3c7ce",
+    "storage_bucket": "emojiapp-3c7ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935500520712:android:ca806d9cae7fb95335a0bd",
+        "android_client_info": {
+          "package_name": "com.sh_developers.emojilocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935500520712-qtdjijbmbpfh0099ohgp823d0eqpfhkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGbmTbhWSvVq4GkzVb8VRj0gjpA5LY8eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935500520712-qtdjijbmbpfh0099ohgp823d0eqpfhkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
